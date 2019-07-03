@@ -1,0 +1,3 @@
+#!/bin/bash
+bin_directory=$( cd "$( dirname "$0" )" && pwd )
+python ${bin_directory}/../gharmonic.py $1
